@@ -1,0 +1,154 @@
+aid: unitedhealth-group
+url: https://raw.githubusercontent.com/api-evangelist/unitedhealth-group/refs/heads/main/apis.yml
+name: UnitedHealth Group
+type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unitedhealth-group.png
+tags:
+- Healthcare
+- Insurance
+- Health Insurance
+- Managed Care
+- Fortune 100
+description: The largest healthcare company in the world by revenue, operating UnitedHealthcare insurance
+  and Optum health services. Serves over 150 million people through its health benefits and technology-driven
+  care solutions.
+created: '2026-05-05'
+modified: '2026-05-05'
+specificationVersion: '0.23'
+apis:
+- aid: unitedhealth-group-group:unitedhealth-clinical-data-api
+  name: UnitedHealth Group Clinical Data API
+  description: FHIR R4 clinical data including conditions, observations, and medications
+  humanURL: https://www.uhc.com/legal/interoperability-apis
+  baseURL: https://api.uhc.com/fhir/R4
+  tags:
+  - Clinical Data
+  properties:
+  - type: OpenAPI
+    url: openapi/unitedhealth-group-clinical-data-api-openapi.yml
+  - type: Documentation
+    url: https://www.uhc.com/legal/interoperability-apis
+  - type: Schema
+    url: json-schema/optum-fhir-bundle-schema.json
+  - type: Schema
+    url: json-schema/optum-fhir-patient-schema.json
+  - type: JSONLDContext
+    url: json-ld/unitedhealth-group-optum-api-context.jsonld
+  - type: Examples
+    url: examples/optum-fhir-patient-example.json
+  - type: GraphQL
+    url: graphql/unitedhealth-group-graphql.md
+- aid: unitedhealth-group-group:unitedhealth-drug-formulary-api
+  name: UnitedHealth Group Drug Formulary API
+  description: FHIR R4 Drug Formulary API for prescription drug coverage information
+  humanURL: https://www.uhc.com/legal/interoperability-apis
+  baseURL: https://api.uhc.com/fhir/R4
+  tags:
+  - Drug Formulary
+  properties:
+  - type: OpenAPI
+    url: openapi/unitedhealth-group-drug-formulary-api-openapi.yml
+  - type: Documentation
+    url: https://www.uhc.com/legal/interoperability-apis
+  - type: Schema
+    url: json-schema/optum-fhir-bundle-schema.json
+  - type: Schema
+    url: json-schema/optum-fhir-patient-schema.json
+  - type: JSONLDContext
+    url: json-ld/unitedhealth-group-optum-api-context.jsonld
+  - type: Examples
+    url: examples/optum-fhir-patient-example.json
+  - type: GraphQL
+    url: graphql/unitedhealth-group-graphql.md
+- aid: unitedhealth-group-group:unitedhealth-patient-access-api
+  name: UnitedHealth Group Patient Access API
+  description: FHIR R4 Patient Access API for member health data (CMS-9115-F)
+  humanURL: https://www.uhc.com/legal/interoperability-apis
+  baseURL: https://api.uhc.com/fhir/R4
+  tags:
+  - Patient Access
+  properties:
+  - type: OpenAPI
+    url: openapi/unitedhealth-group-patient-access-api-openapi.yml
+  - type: Documentation
+    url: https://www.uhc.com/legal/interoperability-apis
+  - type: Schema
+    url: json-schema/optum-fhir-bundle-schema.json
+  - type: Schema
+    url: json-schema/optum-fhir-patient-schema.json
+  - type: JSONLDContext
+    url: json-ld/unitedhealth-group-optum-api-context.jsonld
+  - type: Examples
+    url: examples/optum-fhir-patient-example.json
+  - type: GraphQL
+    url: graphql/unitedhealth-group-graphql.md
+- aid: unitedhealth-group-group:unitedhealth-provider-directory-api
+  name: UnitedHealth Group Provider Directory API
+  description: FHIR R4 Provider Directory API implementing Da Vinci PDex Plan Net IG
+  humanURL: https://www.uhc.com/legal/interoperability-apis
+  baseURL: https://api.uhc.com/fhir/R4
+  tags:
+  - Provider Directory
+  properties:
+  - type: OpenAPI
+    url: openapi/unitedhealth-group-provider-directory-api-openapi.yml
+  - type: Documentation
+    url: https://www.uhc.com/legal/interoperability-apis
+  - type: Schema
+    url: json-schema/optum-fhir-bundle-schema.json
+  - type: Schema
+    url: json-schema/optum-fhir-patient-schema.json
+  - type: JSONLDContext
+    url: json-ld/unitedhealth-group-optum-api-context.jsonld
+  - type: Examples
+    url: examples/optum-fhir-patient-example.json
+  - type: GraphQL
+    url: graphql/unitedhealth-group-graphql.md
+common:
+- type: VulnerabilityDisclosure
+  url: security/unitedhealth-group-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/unitedhealth-group-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/UnitedHealthGroup
+- type: LinkedIn
+  url: https://www.linkedin.com/company/unitedhealth-group
+- type: Website
+  url: https://www.unitedhealthgroup.com/
+- url: https://www.unitedhealthgroup.com/newsroom/our-stories.html
+  type: Blog
+- type: AgenticAccess
+  url: agentic-access/unitedhealth-group-agentic-access.yml
+- type: VulnerabilityDisclosure
+  url: security/unitedhealth-group-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/unitedhealth-group-domain-security.yml
+- type: Authentication
+  url: authentication/unitedhealth-group-authentication.yml
+- type: AgenticAccess
+  url: agentic-access/unitedhealth-group-agentic-access.yml
+- type: VulnerabilityDisclosure
+  url: security/unitedhealth-group-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/unitedhealth-group-domain-security.yml
+- type: Authentication
+  url: authentication/unitedhealth-group-authentication.yml
+- type: AgenticAccess
+  url: agentic-access/unitedhealth-group-agentic-access.yml
+- type: VulnerabilityDisclosure
+  url: security/unitedhealth-group-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/unitedhealth-group-domain-security.yml
+- type: Authentication
+  url: authentication/unitedhealth-group-authentication.yml
